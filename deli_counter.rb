@@ -4,6 +4,8 @@ if katz_deli.size > 0
   current_line = "The line is currently:"
   katz_deli.each.with_index(1) do |name, i|
     current_line << " #{i}. #{name}"
+  else 
+    puts "The line is currently empty."
   end
   puts current_line
 end
