@@ -5,6 +5,6 @@ if katz_deli.size > 0
   katz_deli.each.with_index(1) do |name, i|
     current_line << "#{i}. #{name} "
   end
-  puts current_line.chomp
+  puts current_line
 end
 end
